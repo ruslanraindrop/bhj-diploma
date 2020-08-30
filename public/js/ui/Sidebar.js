@@ -43,14 +43,10 @@ class Sidebar {
     registerButton.addEventListener('click', () => App.getModal('register').open());
     logoutButton.addEventListener('click', () => {
       User.logout({}, (err, response) => {
-        if (response.success) {
+        if (response.success && response) {
           App.setState('init');
         } 
       });
-      // User.logout();
-      // App.setState('init');
-
-      
     });
   }
 }

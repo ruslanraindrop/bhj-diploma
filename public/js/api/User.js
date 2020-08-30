@@ -27,8 +27,6 @@ class User {
   static current() {
     if (localStorage.user) {
       return JSON.parse(localStorage.user);
-    } else {
-      return undefined;
     }
   }
 
@@ -68,12 +66,12 @@ class User {
       url: User.URL + '/login',
       responseType: 'json',
       callback: (err, response) => {
-        // response = JSON.parse(response);
-        if (response.success) {
+        if (response.success && response) {
           User.setCurrent(response.user);
         } else {
-          callback(err, response);
-        }
+          console.log(response.error);
+        } 
+        callback(err, response);
       }
     }
 
@@ -93,7 +91,6 @@ class User {
       url: User.URL + '/register',
       responseType: 'json',
       callback: (err, response) => {
-        // response = JSON.parse(response);
         if (response.success && response) {
           User.setCurrent(response.user);
         } else {
@@ -116,8 +113,7 @@ class User {
       url: User.URL + '/logout',
       responseType: 'json',
       callback: (err, response) => {
-        // response = JSON.parse(response);
-        if (response.success === true) {
+        if (response.success && response) {
           User.unsetCurrent();
         } 
         callback(err, response);

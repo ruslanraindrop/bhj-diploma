@@ -12,7 +12,6 @@ class Entity {
   static list( data, callback = f => f ) {
     const options = {
       url: this.URL,
-      headers,
       data,
       responseType: 'json',
       method: 'GET',
@@ -30,7 +29,6 @@ class Entity {
     Object.assign(data, {_method: 'PUT'});
     const options = {
       url: this.URL,
-      headers,
       data,
       responseType: 'json',
       method: 'POST',
@@ -44,10 +42,8 @@ class Entity {
    * (в зависимости от того, что наследуется от Entity)
    * */
   static get( id = '', data, callback = f => f ) {
-    Object.assign(data, {id: id});
     const options = {
       url: this.URL,
-      headers,
       data,
       responseType: 'json',
       method: 'GET',
@@ -55,6 +51,7 @@ class Entity {
     }
     return createRequest(options);
   }
+
 
   /**
    * Удаляет информацию о счёте или доходе/расходе
@@ -64,7 +61,6 @@ class Entity {
     Object.assign(data, {id: id, _method: 'DELETE'});
     const options = {
       url: this.URL,
-      headers,
       data,
       responseType: 'json',
       method: 'POST',

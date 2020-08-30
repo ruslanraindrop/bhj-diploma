@@ -8,195 +8,31 @@
       "isAuthorized": false
     },
     {
-      "id": "atz56m4ke4gji6m",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz583gke4gszyj",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz57ygke4guemk",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz56uwke4gw1xb",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz55x4ke4gxkhr",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz52icke4gy62y",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz5120ke4gzp47",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz517gke4h0u9a",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz52q0ke4h4cn7",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz58wcke4h6uw9",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz56m8ke4h7w2x",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz56dkke4h8oex",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz56wke4hc9p8",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz511gke4hcsc6",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz57o0ke4hdytv",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz5koke4hfbfs",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz55r0ke4hfqsv",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz573gke4hg55u",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz56boke4hho3e",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz56hkke4hjx0t",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz5934ke4hnfbk",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz542wke4hq2t2",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz52q8ke4hqvy6",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz51mske4hsilx",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz57ogke4ht1pb",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz56swke4hurbj",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz51aske4hviuw",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz57nske4hwj2f",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz56nske4hy4px",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz57yske7gk7zk",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz56ske7glsdk",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz56y8ke7gmwr4",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz56icke7gnk54",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz54j8ke7gq9d4",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz51m8ke7gr49g",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz58m0ke7grq4a",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz54s4ke7gt0kb",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz51jwke7gteao",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz570ske7h1tqn",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz5w8ke7hf41j",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz52p4ke7hyb1b",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz58lwke7i6xbd",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz57l0ke7iathf",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz57scke7ibec8",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz54poke7iciio",
-      "isAuthorized": false
-    },
-    {
-      "id": "atz5igke7ighd1",
+      "name": "123",
+      "email": "123@mail.ru",
+      "password": "123",
+      "id": "atz5s0ke9kcrzy",
       "isAuthorized": true
     },
     {
-      "id": "atz582ske7ih7kb",
+      "name": "Ruslan",
+      "email": "inventmeplease@gmail.com",
+      "password": "1234",
+      "id": "atz59agke9kev22",
       "isAuthorized": true
     },
     {
-      "id": "atz58j8ke7ihocr",
+      "name": "Oleg",
+      "email": "oleg@oleg.ru",
+      "password": "1234",
+      "id": "atz55vcke9kv9n1",
+      "isAuthorized": true
+    },
+    {
+      "name": "Evgen",
+      "email": "evg@evg",
+      "password": "evg",
+      "id": "atz57rokea4swe5",
       "isAuthorized": true
     }
   ],
@@ -215,6 +51,21 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "Безнал",
+      "user_id": "1",
+      "id": "atz5490kecyiaef"
+    },
+    {
+      "name": "Наличные",
+      "user_id": "atz5s0ke9kcrzy",
+      "id": "atz51eckegyjk9r"
+    },
+    {
+      "name": "Безнал",
+      "user_id": "atz5s0ke9kcrzy",
+      "id": "atz56g0kegyjmz8"
     }
   ],
   "transactions": [
@@ -301,15 +152,6 @@
     },
     {
       "account_id": "3",
-      "created_at": "2017-09-17 13:27:02",
-      "id": "10",
-      "name": "На стволы",
-      "sum": 6000,
-      "type": "expense",
-      "user_id": "1"
-    },
-    {
-      "account_id": "3",
       "created_at": "2017-12-27 13:27:02",
       "id": "11",
       "name": "Прибыль с банка",
@@ -352,6 +194,70 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "atz52egkefj1463",
+      "type": "INCOME",
+      "name": "Зарплата",
+      "sum": 40000,
+      "account_id": "atz54h8kecyk0pn",
+      "created_at": "2020-08-29T10:33:12.026Z"
+    },
+    {
+      "id": "atz542wkefj1fzn",
+      "type": "INCOME",
+      "name": "Соц выплаты",
+      "sum": 2000,
+      "account_id": "atz55rokefi3ih5",
+      "created_at": "2020-08-29T10:33:27.346Z"
+    },
+    {
+      "id": "atz5nokefj42rf",
+      "type": "EXPENSE",
+      "name": "Поход за продуктами",
+      "sum": 2000,
+      "account_id": "atz55rokefi3ih5",
+      "created_at": "2020-08-29T10:35:30.170Z"
+    },
+    {
+      "id": "atz55fokegy7esf",
+      "type": "INCOME",
+      "name": "Зарплата",
+      "sum": 50000,
+      "account_id": "atz5490kecyiaef",
+      "created_at": "2020-08-30T10:25:46.142Z"
+    },
+    {
+      "id": "atz516wkegy81im",
+      "type": "EXPENSE",
+      "name": "Покупки",
+      "sum": 1000,
+      "account_id": "atz5490kecyiaef",
+      "created_at": "2020-08-30T10:26:15.597Z"
+    },
+    {
+      "id": "atz55n0kegylrdw",
+      "type": "INCOME",
+      "name": "Копилка",
+      "sum": 800000,
+      "account_id": "atz551okegylfzh",
+      "created_at": "2020-08-30T10:36:55.651Z"
+    },
+    {
+      "id": "atz56askegywvhk",
+      "type": "INCOME",
+      "name": "Копилка",
+      "sum": 800000,
+      "account_id": "atz5424kegywk6x",
+      "created_at": "2020-08-30T10:45:34.183Z"
+    },
+    {
+      "id": "atz58bkkegzcieu",
+      "type": "INCOME",
+      "name": "Долг",
+      "sum": 5000,
+      "account_id": "atz51eckegyjk9r",
+      "created_at": "2020-08-30T10:57:43.733Z"
     }
   ]
 }
